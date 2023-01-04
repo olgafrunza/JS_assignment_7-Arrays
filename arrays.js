@@ -4,7 +4,7 @@ function joinStr(arr) {
 }
 console.log(joinStr(["Red", "Green", "White", "Black"]));
 
-Assignment 2
+//Assignment 2
 function sortItems(arr) {
   return arr.sort((a, b) => a - b);
 }
