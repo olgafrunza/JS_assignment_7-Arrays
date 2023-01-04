@@ -1,10 +1,12 @@
 //Assignment 1
+
 function joinStr(arr) {
   return arr.join(",");
 }
 console.log(joinStr(["Red", "Green", "White", "Black"]));
 
 //Assignment 2
+
 function sortItems(arr) {
   return arr.sort((a, b) => a - b);
 }
@@ -32,6 +34,7 @@ function mostFrequent(arr) {
 console.log(mostFrequent([3, "a", "a", "a", 2, 3, "a", 3, "a", 2, 4, 9, 3]));
 
 //Assignment 4
+
 function isSumK(arr, k) {
   for (let i = 0; i < arr.length; i++) {
     for (let j = i + 1; j < arr.length; j++) {
